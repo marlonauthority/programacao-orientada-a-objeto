@@ -28,3 +28,13 @@ COMERNada
 
 ## OBJETO
 Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas *características*, *comportamentos* e *estado atual*.
+
+Todo objeto tem:
+* Atributos
+* Métodos
+* Estado
+
+## CLASSE
+Define os atributos e métodos comuns que serão compartilhados por um objeto.
+
+> A definição correta ao criar um objeto é *instanciar* de uma classe.
