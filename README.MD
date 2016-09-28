@@ -1,9 +1,15 @@
 Orientação a objeto em PHP
+
 Como era?
+
 4. POO
+
 3. Programação Estruturada
+
 2. Programação Linear
+
 1. Programação Baixo Nível
+
 
 Criador?
 Alan Kay
