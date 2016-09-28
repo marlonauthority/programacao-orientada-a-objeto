@@ -14,17 +14,17 @@ Alan Kay
 ##Vantagens?
 COMERNada
 
-`C - *Confiável*` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma otra é afetada.
+`C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma otra é afetada.
 
-`O - *Oportuno*` = Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+`O - Oportuno` = Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 
-`M - *Manutenível*` = Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar toas as partes que usarem o objeto.
+`M - Manutenível` = Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar toas as partes que usarem o objeto.
 
-`E - *Extensível*`  = O software não é estático. Ele deve crescer para permanecer útil.
+`E - Extensível`  = O software não é estático. Ele deve crescer para permanecer útil.
 
-`R - *Reutilizável` = Podemos usar objetos de um sistema que criamos em outro sistema futuro.
+`R - Reutilizável` = Podemos usar objetos de um sistema que criamos em outro sistema futuro.
 
-`N - *Natural*` = Mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+`N - Natural` = Mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
 ## OBJETO
-Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual.
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas *características*, *comportamentos* e *estado atual*.
