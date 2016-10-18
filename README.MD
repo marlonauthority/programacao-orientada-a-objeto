@@ -46,3 +46,6 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 
 ## MÉTODOS ESPECIAIS
+* Métodos Acessores - Getters
+* Métodos Modificadores - Setters
+* Método Construtor - Construct
