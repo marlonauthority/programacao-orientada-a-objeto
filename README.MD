@@ -12,7 +12,6 @@
 Alan Kay
 
 ##Vantagens?
-COMERNada
 
 `C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma otra é afetada.
 
@@ -38,3 +37,12 @@ Todo objeto tem:
 Define os atributos e métodos comuns que serão compartilhados por um objeto.
 
 > A definição correta ao criar um objeto é *instanciar* de uma classe.
+
+### Modificadores de Visibilidade
+Indicam o nível de acesso aos componentes internos de uma classe.
+> + publico - A classe atual e todas as outras classes.
+> - privado - Somente a classe atual
+> # protegido - A classe atual e todas as suas sub-classes
+
+
+## MÉTODOS ESPECIAIS

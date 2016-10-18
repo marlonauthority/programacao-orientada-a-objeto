@@ -7,27 +7,28 @@
   <body>
     <?php
       require_once 'classCaneta.php'; // importa a classe (MODEL)
-      $c1 = new Caneta;          // Objeto com nome c1 do tipo caneta
-      $c1->cor = "Azul";         // altera um atributo do objeto
-      $c1->ponta = 0.5;          // altera um atributo do objeto
-
-      $c1->destampar();            //chama o metodo destampar
-
-        echo"<pre>";            //apenas visual
-          print_r($c1);         //mostra a estrutura do objeto
-        echo"</pre>";           //apenas visual
-          echo"<br>";           //apenas visual quebra linha
 
       $c2 = new Caneta;         // Objeto com nome c1 do tipo caneta
-      $c2->cor = "Verde";       // altera um atributo do objeto
-      $c2->carga = 50;          // altera um atributo do objeto
-      $c2->tampar();            //chama o metodo tampar
-
+      $c2->modelo = "BIC cristal";
+      $c2->cor="Azul";
+      //$c2->ponta = 0.9;
+      //$c2->carga = 99;
       echo"<pre>";            //apenas visual
-        print_r($c1);         //mostra a estrutura do objeto
+        print_r($c2);         //mostra a estrutura do objeto
       echo"</pre>";           //apenas visual
-        echo"<br>";           //apenas visual quebra linha
+        echo"<b>";
 
+
+    $c2->rabiscar();
+
+
+
+
+
+
+
+
+    
     ?>
   </body>
 </html>

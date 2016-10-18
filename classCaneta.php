@@ -1,23 +1,23 @@
 <?php
 
   class Caneta{ // inicia a classe com Atributos abaixo
-    var $modelo; //atributo
-    var $cor; //atributo
-    var $ponta; //atributo
-    var $carga; //atributo
-    var $tampada; //atributo
+    public $modelo; //atributo
+    public $cor; //atributo
+    private $ponta; //atributo
+    protected $carga; //atributo
+    protected $tampada; //atributo
 
-      function rabiscar(){ //metodo
+      public function rabiscar(){ //metodo
         if($this->tampada == true) {
           echo "<p>Error, não posso rabiscar!</p>";
         }else {
           echo "<p>Estou rabiscando..</p>";
         }
       }
-      function tampar(){ //metodo
+      private function tampar(){ //metodo
         $this->tampada = true;
       }
-      function destampar(){ //metodo
+      private function destampar(){ //metodo
         $this->tampada = false;
       }
   }
