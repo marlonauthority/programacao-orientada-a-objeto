@@ -49,3 +49,15 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 * Métodos Acessores - Getters
 * Métodos Modificadores - Setters
 * Método Construtor - Construct
+
+
+### TOME NOTA
+. Classe seria a receita do bolo.
+
+. Objeto seria o bolo pronto.
+
+. Atributos seriam os ingredientes do bolo.
+
+. A setinha "->" se chama operador objeto.
+
+. Metodo basicamente é a funcao criada dentro da classe.
