@@ -61,3 +61,14 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 . A setinha "->" se chama operador objeto.
 
 . Metodo basicamente é a funcao criada dentro da classe.
+
+
+## Pilares do POO
+* Encapsulamento - Ocultar partes indepedentes da implementação, premitindo contruir partes invísiveis ao mundo exterior.
+  Vantagens:
+  1. Tornar mudanças invisíveis
+  2. Facilitar a reutilização do código
+  3. Reduzir efeitos colaterais
+
+* Herança
+* Polimorfismo
