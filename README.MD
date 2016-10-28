@@ -62,6 +62,10 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 . Metodo basicamente é a funcao criada dentro da classe.
 
+. Abstração - Abstrair é considerar somente aquilo que lhe importa em um determinado momento de uma programação.
+
+. Objetos são Instacias de Classes.
+
 
 ## Pilares do POO
 * Encapsulamento - Ocultar partes indepedentes da implementação, premitindo contruir partes invísiveis ao mundo exterior.
@@ -69,6 +73,9 @@ Indicam o nível de acesso aos componentes internos de uma classe.
   1. Tornar mudanças invisíveis
   2. Facilitar a reutilização do código
   3. Reduzir efeitos colaterais
+  >> OBS: Deixa-mos todos os atributos com Visibilidade privado essa é a sacada do Encapsulamento para que nada mexa nos atributos.
+
+
 
 * Herança
 * Polimorfismo
