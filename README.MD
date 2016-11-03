@@ -68,7 +68,7 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 
 ## Pilares do POO
-* Encapsulamento - Ocultar partes indepedentes da implementação, premitindo contruir partes invísiveis ao mundo exterior.
+* Encapsulamento - Ocultar partes indepedentes da implementação, permitindo contruir partes invísiveis ao mundo exterior.
   Vantagens:
   1. Tornar mudanças invisíveis
   2. Facilitar a reutilização do código
