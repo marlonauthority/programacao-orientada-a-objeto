@@ -15,13 +15,13 @@ class Pessoa {
   public function getSexo(){
     return $this->sexo;
   }
-  public function setNome(){
+  public function setNome($nome){
     $this->nome = $nome;
   }
-  public function setIdade(){
+  public function setIdade($idade){
     $this->idade = $idade;
   }
-  public function setSexo(){
+  public function setSexo($sexo){
       $this->sexo = $sexo;
     }
 

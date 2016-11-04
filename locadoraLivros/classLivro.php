@@ -31,22 +31,22 @@
     public function getLeitor(){
       return $this->leitor;
     }
-    public function setTitulo($t){
+    public function setTitulo($titulo){
       $this->titulo = $titulo;
     }
-    public function setAutor($a){
+    public function setAutor($autor){
       $this->autor = $autor;
     }
-    public function setTotPaginas($t){
+    public function setTotPaginas($totPaginas){
       $this->totPaginas = $totPaginas;
     }
-    public function setPagAtual($p){
+    public function setPagAtual($pagAtual){
       $this->pagAtual = $pagAtual;
     }
-    public function setAberto($a){
+    public function setAberto($abeto){
       $this->aberto = $abeto;
     }
-    public function setLeitor($l){
+    public function setLeitor($leitor){
       $this->leitor = $leitor;
     }
 

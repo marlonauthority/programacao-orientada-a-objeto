@@ -36,7 +36,7 @@ Todo objeto tem:
 ## CLASSE
 Define os atributos e métodos comuns que serão compartilhados por um objeto.
 
-> A definição correta ao criar um objeto é *instanciar* de uma classe.
+>> A definição correta ao criar um objeto é *instanciar* de uma classe.
 
 ### Modificadores de Visibilidade
 Indicam o nível de acesso aos componentes internos de uma classe.
@@ -70,12 +70,12 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 ## Pilares do POO
 * Encapsulamento - Ocultar partes indepedentes da implementação, permitindo contruir partes invísiveis ao mundo exterior.
   Vantagens:
-  1. Tornar mudanças invisíveis
-  2. Facilitar a reutilização do código
-  3. Reduzir efeitos colaterais
-  >> OBS: Deixa-mos todos os atributos com Visibilidade privado essa é a sacada do Encapsulamento para que nada mexa nos atributos.
+  * Tornar mudanças invisíveis
+  * Facilitar a reutilização do código
+  * Reduzir efeitos colaterais
 
 
 
-* Herança
+* Herança - Permite basear uma nova classe na definição de uma outra classe previamente existente. Ela é aplicada tanto para as características quanto para os comportamentos.
+
 * Polimorfismo
