@@ -13,7 +13,7 @@ Alan Kay
 
 ##Vantagens?
 
-`C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma otra é afetada.
+`C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma outra é afetada.
 
 `O - Oportuno` = Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 
@@ -36,7 +36,7 @@ Todo objeto tem:
 ## CLASSE
 Define os atributos e métodos comuns que serão compartilhados por um objeto.
 
->> A definição correta ao criar um objeto é *instanciar* de uma classe.
+> A definição correta ao criar um objeto é *instanciar* de uma classe.
 
 ### Modificadores de Visibilidade
 Indicam o nível de acesso aos componentes internos de uma classe.
@@ -46,7 +46,7 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 
 ## MÉTODOS ESPECIAIS
-* Métodos Acessores - Getters
+* Métodos Acessôres - Getters
 * Métodos Modificadores - Setters
 * Método Construtor - Construct
 
@@ -60,15 +60,15 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 . A setinha "->" se chama operador objeto.
 
-. Metodo basicamente é a funcao criada dentro da classe.
+. Método basicamente é a função criada dentro da classe.
 
 . Abstração - Abstrair é considerar somente aquilo que lhe importa em um determinado momento de uma programação.
 
-. Objetos são Instacias de Classes.
+. Objetos são Instâcias de Classes.
 
 
 ## Pilares do POO
-* Encapsulamento - Ocultar partes indepedentes da implementação, permitindo contruir partes invísiveis ao mundo exterior.
+* Encapsulamento - Ocultar partes independentes da implementação, permitindo construir partes invísiveis ao mundo exterior.
   Vantagens:
   * Tornar mudanças invisíveis
   * Facilitar a reutilização do código
@@ -77,5 +77,9 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 
 * Herança - Permite basear uma nova classe na definição de uma outra classe previamente existente. Ela é aplicada tanto para as características quanto para os comportamentos.
+  * Classe Abstrata - Não pode ser instanciada. Só pode servir como progenitora.
+  * Método Abstrato - Declarado, mas não implementado na progenitora. "Só pode ser usado em uma interface ou uma classe abstrata".
+  * Classe final - Não pode ser herdada por outra classe. Obrigatoriamente folha. "Não pode ter filhos".
+  * Método final - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
 
 * Polimorfismo
