@@ -11,7 +11,7 @@
 ##Criador?
 Alan Kay
 
-##Vantagens?
+##Vantagens? ....
 
 `C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma outra é afetada.
 
