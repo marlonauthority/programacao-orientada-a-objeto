@@ -1,5 +1,5 @@
 <?php
-  require_once 'superclassPessoa.php';
+  require_once 'absPessoa.php';
 
   class Professor extends Pessoa {
     //Atributos

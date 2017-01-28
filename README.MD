@@ -11,7 +11,7 @@
 ##Criador?
 Alan Kay
 
-##Vantagens? ....
+##Vantagens?
 
 `C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma outra é afetada.
 
@@ -77,9 +77,10 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 
 
 * Herança - Permite basear uma nova classe na definição de uma outra classe previamente existente. Ela é aplicada tanto para as características quanto para os comportamentos.
-  * Classe Abstrata - Não pode ser instanciada. Só pode servir como progenitora.
-  * Método Abstrato - Declarado, mas não implementado na progenitora. "Só pode ser usado em uma interface ou uma classe abstrata".
-  * Classe final - Não pode ser herdada por outra classe. Obrigatoriamente folha. "Não pode ter filhos".
-  * Método final - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+
+  * Classe Abstrata - Não pode ser instanciada. Só pode servir como progenitora. (Não gera objetos).
+  * Método Abstrato - Declarado, mas não implementado na progenitora. "Só pode ser usado em uma interface ou uma classe abstrata". (Só pode ser usado em uma interface ou classe abstrata).
+  * Classe final - Não pode ser herdada por outra classe. Obrigatoriamente folha. (Não pode ter filhos).
+  * Método final - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado. (Não pode ser sobreposto).
 
 * Polimorfismo

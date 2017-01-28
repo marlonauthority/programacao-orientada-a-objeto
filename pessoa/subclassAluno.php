@@ -1,6 +1,6 @@
 <?php
-  require_once 'superclassPessoa.php';
-
+  //require_once 'superclassPessoa.php';
+  require_once 'absPessoa.php';
   class Aluno extends Pessoa {
 
     //METODOS
@@ -10,6 +10,9 @@
     //METODOS
     public function cancelarMatr(){
       echo "<p>Matrículo cancelada.</p>";
+    }
+    public function pagarMensalidade(){
+      echo "<p>Pegando Mensalidade do aluno $this->nome</p>";
     }
 
     public function getMatr(){
