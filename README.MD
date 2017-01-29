@@ -84,3 +84,13 @@ Indicam o nível de acesso aos componentes internos de uma classe.
   * Método final - Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado. (Não pode ser sobreposto).
 
 * Polimorfismo
+Permite que um mesmo nome represente vários comportamentos diferentes.
+  - POLI -> Muitas
+  - Morfo -> Formas
+  Muitas Formas de se fazer determinada "coisa".
+
+  * Assinatura do Métodos - Quantidade e os tipos dos parâmetros.
+
+  #### Tipos:
+  * Sobreposição - Acontece quando substituímos um médoto de uma superclasse na sua sub-classe usando a mesma assinatura.
+  * Sobrecarga -
