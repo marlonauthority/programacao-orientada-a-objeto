@@ -11,7 +11,9 @@
     require_once  'classReptil.php';
     require_once  'classPeixe.php';
     require_once  'classAve.php';
-    require_once  'subclassMamifero.php';
+    require_once  'subclassMamifero-Canguru.php';
+    require_once  'subclassMamifero-Lobo.php';
+    require_once  'subclassMamifero-Cachorro.php';
 
     $mamifero = new Mamifero();
     $mamifero->setPeso(33.2);
@@ -55,6 +57,22 @@
     $canguru->setIdade(8);
     $canguru->setCorPelo("marrom");
     print_r($canguru);
+
+    $lobo = new Lobo();
+    $lobo->emitirSom();
+    print_r($lobo);
+
+    $cachorro = new Cachorro();
+    $cachorro->emitirSom();
+    $cachorro->reagirFrase("Olá"); //Abanar e Latir
+    $cachorro->reagirFrase("Vai apanhar"); //Rosnar
+    $cachorro->reagirHora(11,45); // Abanar
+    $cachorro->reagirHora(21,00); // Ignonar
+    $cachorro->reagirDono(true); //Abanar
+    $cachorro->reagirDono(false); // Rosnar e Latir
+    $cachorro->reagirIdadePeso(2,12.5); //Latir
+    $cachorro->reagirIdadePeso(17, 4.5); //Rosnar
+    print_r($cachorro);
 
   ?>
 </pre>

@@ -4,9 +4,7 @@
       //
       //
       //Atributos
-      protected $peso;
-      protected $idade;
-      protected $membros;
+      protected $peso, $idade, $membros;
       //
       //
       //Metodos Abstratos, so pode criar metodos abstratos dentro de classes abstratas!
@@ -34,5 +32,5 @@
       public function setMembros($m){
         $this->membros = $m;
       }
-      
+
   }

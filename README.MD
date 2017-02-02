@@ -86,11 +86,11 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 * Polimorfismo
   * Permite que um mesmo nome represente vários comportamentos diferentes.
     - POLI -> Muitas
-    - Morfo -> Formas
+    - MORFO -> Formas
       - Muitas Formas de se fazer determinada "coisa".
 
   * Assinatura do Métodos - Quantidade e os tipos dos parâmetros.
 
   #### Tipos:
-  * Sobreposição - Acontece quando substituímos um médoto de uma superclasse na sua sub-classe usando a mesma assinatura.
-  * Sobrecarga -
+  * Sobreposição - Ocorre quando os métodos possuem a mesma assinatura e classes diferentes.
+  * Sobrecarga - Ocorre quando os métodos possuem assinaturas diferentes e mesma classe. (Não suportado no PHP).
