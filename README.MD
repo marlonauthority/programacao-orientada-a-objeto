@@ -1,6 +1,6 @@
-#Orientação a objeto em PHP
+# Orientação a objeto em PHP
 
-##Como era?
+### Como era?
 
 1. Programação Baixo Nível
 2. Programação Linear
@@ -8,10 +8,10 @@
 4. POO
 
 
-##Criador?
+### Criador?
 Alan Kay
 
-##Vantagens?
+### Vantagens?
 
 `C - Confiável` = O Isolamento entra as partes gera software seguro. Ao  alterar uma parte, nenhuma outra é afetada.
 
@@ -38,20 +38,20 @@ Define os atributos e métodos comuns que serão compartilhados por um objeto.
 
 > A definição correta ao criar um objeto é *instanciar* de uma classe.
 
-### Modificadores de Visibilidade
+#### Modificadores de Visibilidade
 Indicam o nível de acesso aos componentes internos de uma classe.
 * + publico - A classe atual e todas as outras classes.
 * - privado - Somente a classe atual.
 * # protegido - A classe atual e todas as suas sub-classes
 
 
-## MÉTODOS ESPECIAIS
+### MÉTODOS ESPECIAIS
 * Métodos Acessôres - Getters
 * Métodos Modificadores - Setters
 * Método Construtor - Construct
 
 
-### TOME NOTA
+#### TOME NOTA
 . Classe seria a receita do bolo.
 
 . Objeto seria o bolo pronto.
@@ -67,7 +67,7 @@ Indicam o nível de acesso aos componentes internos de uma classe.
 . Objetos são Instâcias de Classes.
 
 
-## Pilares do POO
+### Pilares do POO
 * Encapsulamento - Ocultar partes independentes da implementação, permitindo construir partes invísiveis ao mundo exterior.
   Vantagens:
   * Tornar mudanças invisíveis
